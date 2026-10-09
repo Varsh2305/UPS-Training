@@ -1,0 +1,13 @@
+package java1;
+public class Biodata {
+    public static void main(String[] args) {
+        System.out.println("BIO - DATA");
+        System.out.println("Name : Varshini R");
+        System.out.println("Age : 21");
+        System.out.println("Gender : Female");
+        System.out.println("Course : B.E. Computer Science");
+        System.out.println("College : Rajalakshmi Institute of Technology");
+        System.out.println("City : Chennai");
+        System.out.println("Skills : Java, Python, HTML, CSS"); 
+    }
+}
