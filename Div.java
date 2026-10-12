@@ -1,0 +1,13 @@
+package scannerpractice;
+
+import java.util.Scanner;
+
+public class Div {
+	public static void main(String[]args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a no:");
+		int a=sc.nextInt();
+		System.out.println(a%5==0 && a%10==0?"div by both 5 and 10":a%5==0?"div by 5":a%10==0?"div by 10":"not div by 5 or 10");
+		sc.close();
+	}
+}
